@@ -1,0 +1,8 @@
+<launch>
+
+   <!-- Launch Gazebo with a TurtleBot3 world -->
+  <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_world.launch" />
+
+ 
+    <node pkg="maze_navigation" type="controller.py" name="controller" output="screen" />
+</launch>
