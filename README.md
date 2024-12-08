@@ -1,21 +1,5 @@
 # Robot-MazeQuest
-This repository contains the implementation of my 4th-year project related to Robotics and Intelligent Systems during my undergraduate degree.The project involves programming a robot to perform a series of autonomous tasks, including maze navigation, slit detection, and trajectory following.
-Key Tasks:
-Maze Navigation:
-        The robot autonomously navigates a maze and identifies the exit. Performance is evaluated based on the completion time, with the maze potentially varying during the final demonstration.
-
-    Slit Detection:
-        Upon exiting the maze, the robot encounters a wall with randomly open or closed slits. It identifies the number of open slits while navigating along the wall.
-
-    Path Selection:
-        At the end of the wall, the robot selects one of three paths based on the number of detected open slits. It follows the pre-programmed trajectory corresponding to the slit count and stops within a designated parking zone.
-
-
-A map is included to illustrate the maze structure and the robot’s path, providing a clear visualization of the navigation and task execution.  
-
-
-                     ![image](https://github.com/user-attachments/assets/b003732d-2bb4-4062-959b-c227899d2ab2)
-
+The project involves programming a robot to autonomously navigate a maze, detect specific environmental conditions, and make decisions based on sensory input. The robot must first find the exit of a maze, adjusting to slight variations in the final design, with performance evaluated on completion time. After exiting, it encounters a straight wall with randomly open or closed slits; the robot needs to count these slits while navigating forward. Based on the detected number of open slits, the robot selects one of three predefined, unmarked paths and follows the corresponding trajectory to a marked parking zone, completing the task.
 
 
                            
