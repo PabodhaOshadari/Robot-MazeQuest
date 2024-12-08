@@ -3,6 +3,7 @@ The project involves programming a robot to autonomously navigate a maze, detect
                    ![map_image](https://github.com/user-attachments/assets/2e1a1a83-0a46-4374-b5f5-bdace2fd0d2d)
                    ![step_task_image](https://github.com/user-attachments/assets/04eab059-feba-44f8-828c-bf389e7e21aa)
                    https://github.com/user-attachments/assets/a2c265c5-22c2-4195-9938-519032251d2c
+                  
 
 
       
